@@ -7,6 +7,6 @@ app = Flask("kpulse_engage_totals")
 CORS(app)
 
 def hello():
-    return "Siguete rifando, ;)"
+    return "LOL"
 
 app.add_url_rule('/', 'hello', hello)
